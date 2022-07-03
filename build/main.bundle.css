@@ -2,10 +2,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/App.scss ***!
   \*******************************************************************************************************/
 .toplevel_page_vitereact #wpwrap {
-  background-color: #01579b;
+  background-color: #0a5a74;
 }
 .toplevel_page_vitereact #wpwrap p {
-  color: #d1c4e9;
+  color: #e1dee7;
 }
 .toplevel_page_vitereact .vr__App {
   text-align: center;
@@ -33,10 +33,10 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .toplevel_page_vitereact .vr__App-header p {
-  color: rgb(89, 94, 139);
+  color: rgb(126, 56, 12);
 }
 .toplevel_page_vitereact .vr__App-link {
-  color: #86bdcc;
+  color: #aadfee;
 }
 @keyframes vr__App-logo-spin {
   from {
