@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "buildw": "webpack"
+    "buildw": "webpack",
+    "watch": "webpack watch"
   },
   "dependencies": {
     "@wordpress/element": "^4.10.0",

@@ -1,7 +1,7 @@
 function Hello() {
   return (
     <>
-      <h1>Hello Man </h1>
+      <p>Hello Man How Are You Today</p>
     </>
   );
 }

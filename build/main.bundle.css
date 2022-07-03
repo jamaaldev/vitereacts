@@ -1,22 +1,25 @@
-/*!******************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/App.css ***!
-  \******************************************************************************************************/
-.App {
+/*!*******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/App.scss ***!
+  \*******************************************************************************************************/
+.toplevel_page_vitereact #wpwrap {
+  background-color: #01579b;
+}
+.toplevel_page_vitereact #wpwrap p {
+  color: #d1c4e9;
+}
+.toplevel_page_vitereact .vr__App {
   text-align: center;
 }
-
-.App-logo {
+.toplevel_page_vitereact .vr__App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .toplevel_page_vitereact .vr__App-logo {
+    animation: vr__App-logo-spin infinite 20s linear;
   }
 }
-.App-header {
-  background-color: #282c34;
+.toplevel_page_vitereact .vr__App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,21 +28,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.toplevel_page_vitereact .vr__App-header button {
+  font-size: calc(10px + 2vmin);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-@keyframes App-logo-spin {
+.toplevel_page_vitereact .vr__App-header p {
+  color: black;
+}
+.toplevel_page_vitereact .vr__App-link {
+  color: #05475a;
+}
+@keyframes vr__App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
-button {
-  font-size: calc(10px + 2vmin);
 }
 /*!********************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css ***!
@@ -53,13 +58,4 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-/*!*************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Dashboard.scss ***!
-  \*************************************************************************************************************/
-body {
-  background-color: aquamarine;
-}
-body p {
-  color: red;
 }

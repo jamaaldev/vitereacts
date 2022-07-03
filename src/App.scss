@@ -1,0 +1,58 @@
+//dont delete the toplevel_page_vitereact and #wpwrap for controlling your style
+//add inside css class or id it wouldn't effect other plugin if you keep it.
+// you can delete others that is the components inside here right now and add your own and delete those classes or id come with it
+// or you can delete all is just my point of view designing my plugin page that i need to controll the styles.
+// everytime you add new components style use this toplevel and wprap every where u add css style file
+.toplevel_page_vitereact {
+  #wpwrap {
+    background-color: #01579b;
+    p {
+      color: #d1c4e9;
+    }
+  }
+
+  .vr__App {
+    text-align: center;
+  }
+
+  .vr__App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .vr__App-logo {
+      animation: vr__App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .vr__App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    button {
+      font-size: calc(10px + 2vmin);
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    p {
+      color: black;
+    }
+  }
+
+  .vr__App-link {
+    color: #05475a;
+  }
+
+  @keyframes vr__App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

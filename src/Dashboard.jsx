@@ -4,7 +4,6 @@ function Dashboard() {
   return (
     <>
       <Hello />
-      <h1>Hello World</h1>
     </>
   );
 }
