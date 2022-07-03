@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "buildw": "webpack",
-    "watch": "webpack watch"
+    "watch": "webpack watch",
+    "sync": "browser-sync start -p http://localhost:10010 --files **/*.php build/*.php build/*.js build/*.css"
   },
   "dependencies": {
     "@wordpress/element": "^4.10.0",
@@ -22,6 +23,7 @@
     "@wordpress/dependency-extraction-webpack-plugin": "^3.6.0",
     "babel-loader": "^8.2.5",
     "babel-preset-react-app": "^10.0.1",
+    "browser-sync": "^2.27.10",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",

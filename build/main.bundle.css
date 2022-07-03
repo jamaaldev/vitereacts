@@ -33,10 +33,10 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .toplevel_page_vitereact .vr__App-header p {
-  color: black;
+  color: rgb(89, 94, 139);
 }
 .toplevel_page_vitereact .vr__App-link {
-  color: #05475a;
+  color: #86bdcc;
 }
 @keyframes vr__App-logo-spin {
   from {
